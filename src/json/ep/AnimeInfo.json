@@ -1,0 +1,244 @@
+{
+    "status": 200,
+    "data": {
+        "idCatalogo": 4944,
+        "nombreCatalogo": "solo leveling",
+        "tipoCatalogo": 1,
+        "estadoCatalogo": 2,
+        "imagenPortadaCatalogo": "https:\/\/i.ibb.co\/1Lq0Cvs\/5955834.jpg",
+        "imagenFondoCatalogo": "https:\/\/i.ibb.co\/RB6LD03\/solo-leveling-arise-jinwoo.webp",
+        "descripcionCatalogo": "Solo Leveling es un anime basado en la popular novela web y manhwa del mismo nombre. La historia sigue a Jinwoo Sung, un cazador d\u00e9bil en un mundo donde portales a dimensiones llenas de monstruos aparecen regularmente. Despu\u00e9s de un incidente que casi lo mata, Jinwoo obtiene la habilidad de \"subir de nivel\" como en un videojuego, permiti\u00e9ndole volverse cada vez m\u00e1s fuerte de manera infinita. A medida que crece en poder, descubre oscuros secretos sobre los portales, el mundo y su propio destino. El anime destaca por sus intensas batallas, desarrollo de personajes y una narrativa llena de acci\u00f3n y misterio.",
+        "nsfwCatalogo": 0,
+        "recomendacionCatalogo": 0,
+        "trailerCatalogo": "https:\/\/www.youtube.com\/embed\/8VJR7fTv30k?si=963vdBAyQ0kjEAv3",
+        "temporadas": [
+            {
+                "idTemporada": 18,
+                "numeroTemporada": 1,
+                "nombreTemporada": " Solo Leveling Season 1",
+                "descripcionTemporada": "el cazador m\u00e1s d\u00e9bil en un mundo donde las personas luchan contra monstruos que emergen de portales dimensionales. Tras una misi\u00f3n fallida en una mazmorra, Jinwoo despierta con una habilidad \u00fanica: puede \"subir de nivel\" como en un videojuego, haci\u00e9ndose m\u00e1s fuerte con cada misi\u00f3n que completa. A lo largo de la temporada, Jinwoo pasa de ser despreciado y subestimado a convertirse en uno de los cazadores m\u00e1s poderosos, enfrent\u00e1ndose a enemigos formidables y descubriendo secretos ocultos sobre los portales y su propio destino.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+                "portadaTemporada": "https:\/\/i.ibb.co\/CBhKKX0\/filters-quality-95-format-webp-1.jpg",
+                "catalogoTemporada": 4944,
+                "nsfw": 0,
+                "capitulos": [
+                    {
+                        "idCapitulo": 63500,
+                        "numeroCapitulo": 1,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 2,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 47,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63501,
+                        "numeroCapitulo": 2,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 1,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 25,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63512,
+                        "numeroCapitulo": 3,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 6,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63537,
+                        "numeroCapitulo": 4,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 1,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63538,
+                        "numeroCapitulo": 5,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 1,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 2,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63539,
+                        "numeroCapitulo": 6,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 0,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63543,
+                        "numeroCapitulo": 7,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 0,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63544,
+                        "numeroCapitulo": 8,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 3,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63545,
+                        "numeroCapitulo": 9,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 8,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63546,
+                        "numeroCapitulo": 10,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 0,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63547,
+                        "numeroCapitulo": 11,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 0,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    },
+                    {
+                        "idCapitulo": 63548,
+                        "numeroCapitulo": 12,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 9,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 18,
+                        "temporadaCapitulo": 18
+                    }
+                ]
+            },
+            {
+                "idTemporada": 19,
+                "numeroTemporada": 2,
+                "nombreTemporada": "Solo Leveling: Arise From The Shadow  Season 2",
+                "descripcionTemporada": "continuacion....",
+                "portadaTemporada": "https:\/\/i.ibb.co\/3mjF0Hb\/Solo-Leveling-Vol-2-Comic-i1n21059382.jpg",
+                "catalogoTemporada": 4944,
+                "nsfw": 0,
+                "capitulos": [
+                    {
+                        "idCapitulo": 63502,
+                        "numeroCapitulo": 1,
+                        "imagenCapitulo": "",
+                        "catalogoCapitulo": 4944,
+                        "meGustasCapitulo": 0,
+                        "noMeGustasCapitulo": 0,
+                        "reproduccionesCapitulo": 9,
+                        "descripcionCapitulo": null,
+                        "tituloCapitulo": null,
+                        "pathCapitulo": null,
+                        "tiempoCapitulo": 19,
+                        "temporadaCapitulo": 19
+                    }
+                ]
+            }
+        ],
+        "categorias": [
+            {
+                "idCategoria": 53,
+                "nombreCategoria": "Acci\u00f3n"
+            },
+            {
+                "idCategoria": 23,
+                "nombreCategoria": "Aventuras"
+            },
+            {
+                "idCategoria": 54,
+                "nombreCategoria": "Ciencia Ficci\u00f3n"
+            },
+            {
+                "idCategoria": 62,
+                "nombreCategoria": "Latino"
+            },
+            {
+                "idCategoria": 47,
+                "nombreCategoria": "Terror"
+            }
+        ]
+    },
+    "message": "La informacion del catalogo es"
+}

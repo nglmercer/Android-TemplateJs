@@ -1,0 +1,24 @@
+// tsconfig.json
+{
+    "compilerOptions": {
+      "target": "ES2022", // O ESNext
+      "module": "ESNext",
+      "lib": ["ESNext", "DOM", "DOM.Iterable"],
+      "useDefineForClassFields": false, // Importante para decoradores
+      "experimentalDecorators": true,     // ¡Esencial!
+      "emitDecoratorMetadata": true,      // ¡Esencial!
+      "moduleResolution": "Bundler", // O NodeNext/Node16
+      "allowJs": true,           // Permite importar archivos .js desde .ts
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,            // Recomendado para nuevo código Angular
+      "noImplicitAny": true,     // Parte de 'strict'
+      "noFallthroughCasesInSwitch": true,
+      // "baseUrl": "./", // Opcional, para rutas absolutas
+      // "paths": {}       // Opcional
+    },
+    "include": ["src/**/*.ts"], // Asegúrate que incluya tus archivos .ts
+    "exclude": ["node_modules"]
+  }

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Layout</title>
+    <link rel="stylesheet" href="./src/assets/style.css">
+    <link rel="stylesheet" href="./src/assets/player.css">
+
+    <style>
+
+    </style>
+    <script type="module" src="/src/components/MainContent.js"></script>
+    <script type="module" src="/src/import.js"></script>
+    <script type="module" src="/src/components/poster.js"></script>
+    <script type="module" src="/src/components/anime-grid.js"></script>
+    <script type="module" src="/src/components/chapter-control.js"></script>
+    <script type="module" src="/src/epAnime.js"></script>
+    <script type="module" src="/src/components/media-controls.js"></script>
+
+</head>
+<body>
+    <div class="Basebody">
+        <div class="main1">
+            <responsive-navbar></responsive-navbar>
+
+        </div>
+        <div class="main2">
+          <set-content>
+            <div class="slot" slot="page-info">
+              <div class="cssposter m-10">
+                <div class="pos1">
+                  <poster-info id="poster-info">
+                  </poster-info>
+                </div>
+                <div class="pos2">
+                  <div class="align-center grid w-full h-full border-radius-16">
+                    <div id="player" data-plyr-provider="youtube" class="w-full h-full"></div>
+                  </div>
+            
+                </div>
+                <div class="pos3">
+                  <season-info class="season-info">
+                    
+                  </season-info>
+
+                  <category-buttons id="category-buttons"
+                  ></category-buttons>
+                </div>
+            </div>
+            </div>
+            <div class="slot" slot="page-video">
+              <div class="media-player-container">
+
+                <!-- Placeholder para el video -->
+                <div class="video-placeholder" id="miContenedorIframe">
+                </div>
+        
+                <!-- Controles -->
+                <div class="controls-area">
+                  <media-controls></media-controls>
+                </div>
+        
+            </div>
+            </div>
+
+          </set-content>
+
+        <div id="Episodios_carrousel" class="Episodios_carrousel">
+          <!-- CREAR EL CAROUSEL -->
+        </div>
+
+            </div>
+    </div>
+    <script type="module" >
+      const navbar_element = document.querySelector('responsive-navbar');
+      navbar_element.addEventListener('item-selected', (e) => {
+        console.log("item-selected", e.detail);
+        const pageChangedEvent = new CustomEvent('page-changed', {
+                    detail: { pageNumber: parseInt( e.detail.index) },
+                    bubbles: true,
+                    composed: true
+                });
+                document.dispatchEvent(pageChangedEvent);
+/*         if (e.detail && e.detail.index === 1) {
+          location.href = '/search.html';
+          return;
+        }
+        if (e.detail && e.detail.index === 0) {
+          location.href = '/index.html';
+          return;
+        } */
+      });
+
+    </script>
+    <script type="module">
+      import setupPlayer from '/src/components/youtube-iframe.js';
+      import { infofetchget,urltemplateInfo, urlepisodetemplate, episodeInfofetchget } from '/src/fetch/fetch.js';
+      import { animeInfoRender, renderTemporadas } from '/src/epAnime.js';
+      // Ejemplo de uso
+      document.addEventListener('DOMContentLoaded', () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const page = urlParams.get('ver');
+        console.log("page", page);
+                  // fetch api.koinima.com
+            infofetchget(urltemplateInfo(page)).then(response => {
+                console.log("response",response);
+                if (response && response.data){
+                  animeInfoRender(response.data);
+                  renderTemporadas(response.data.temporadas);
+                  // if trailerCatalogo
+                  if (response.data.trailerCatalogo) {
+                    setupPlayer({ videoId: response.data.trailerCatalogo });
+                  } else {
+                    console.log("No hay trailer colocando la imagen de fondo", response.data);
+                    // imagenPortadaCatalogo o imagenFondoCatalogo
+                    const player = document.querySelector('#player');
+                    player.innerHTML = `<img src="${response.data.imagenFondoCatalogo}" alt="Poster de ${response.data.nombreCatalogo}"
+                      style="width: 100%; height: 100%; object-fit: cover;"
+                    >`;
+                  }
+                }
+            }); 
+        const navbar_element = document.querySelector('responsive-navbar');
+        navbar_element.addEventListener('item-selected', (e) => {
+        console.log("item-selected", e.detail);
+        if (e.detail) {
+          location.href = '/'+"?tab="+e.detail.index;
+          return;
+        }
+
+      });
+/*         // Inicializar el reproductor con un video predeterminado
+        setupPlayer({ videoId: '8VJR7fTv30k' });
+      
+        // Cambiar el video después de 10 segundos
+        setTimeout(() => {
+          setupPlayer({ videoId: 'dQw4w9WgXcQ' });
+        }, 10000); */
+      });
+      // funcion para obtener informacion
+      </script>
+</body>
+</html>

@@ -22,7 +22,17 @@
     "@ionic/vue-router": "^8.0.0",
     "ionicons": "^7.0.0",
     "vue": "^3.3.0",
-    "vue-router": "^4.2.0"
+    "vue-router": "^4.2.0",
+    "@angular/common": "^19.2.4",
+    "@angular/core": "^19.2.4",
+    "@angular/platform-browser": "^19.2.4",
+    "@angular/platform-browser-dynamic": "^19.2.4",
+    "lit": "^3.2.1",
+    "m3u8-parser": "^7.2.0",
+    "plyr": "^3.7.8",
+    "rxjs": "^7.8.2",
+    "sweetalert2": "^11.17.2",
+    "zone.js": "^0.15.0"
   },
   "devDependencies": {
     "@capacitor/cli": "7.2.0",

@@ -1,0 +1,29 @@
+{
+    "idUsuario": 608,
+    "apodoUsuario": "memelser",
+    "correoUsuario": "nglmercer@gmail.com",
+    "rolUsuario": 1,
+    "nsfwUsuario": false,
+    "fechaCreacion": "2025-03-21 22:36:12",
+    "apicode": null,
+    "fechaNacimiento": null,
+    "nombres": null,
+    "apellidos": null,
+    "state": null,
+    "country": 0,
+    "phone": null,
+    "preRegistrado": 1,
+    "creadorContenido": 0,
+    "anticipado": 0,
+    "fotoPerfilUsuario": null,
+    "plan": {
+        "idPlan": 4,
+        "nombrePlan": "Koiniclub",
+        "precioCentavos": 450,
+        "meses": 1,
+        "tipo": 2
+    },
+    "idUltimaTransaccion": 131,
+    "fechaUltimaTransaccion": null,
+    "nombreRol": "Usuario"
+}

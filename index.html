@@ -1,30 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Ionic App</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Layout</title>
+    <link rel="stylesheet" href="./src/assets/style.css">
+    <style>
 
-    <base href="/" />
+    </style>
+    <script type="module" src="/src/components/MainContent.js"></script>
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/components/poster.js"></script>
+    <script type="module" src="/src/components/anime-grid.js"></script>
+    <script type="module" src="./src/search.js"></script>
+    <script type="module" src="./src/home/home.js"></script>
+</head>
+<body>
+    <div class="Basebody">
+        <div class="main1">
+            <responsive-navbar></responsive-navbar>
 
-    <meta name="color-scheme" content="light dark" />
-    <meta
-      name="viewport"
-      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
+        </div>
+        <div class="main2">
+          <main-content class="main_content">
+              <!-- Define slots for each page -->
+              <div slot="page-0">
+                <div class="main_container">
+                  <anime-card 
+                    title="DRAGON BALL" 
+                    seasons="2"
+                    imageUrl="https://i.ibb.co/t4sRKp4/dragon-ball-daima-opening.jpg">
+                  </anime-card>
+                  <admin-panel 
+                    welcomeMessage="¡Disfruta de tu contenido favorito sin interrupciones!"
+                    isInEmission>
+                  </admin-panel>
+                </div>
+                <div class="promotional_container">
+                  <h3>En Emisión</h3>
+                  <anime-carousel class="Emision_carousel"></anime-carousel>
+                </div>
+                <div class="promotional_container">
+                  <h3>Finalizado</h3>
+                  <anime-carousel class="Finalizado_carousel"></anime-carousel>
+                </div>
+                <div class="promotional_container">
+                  <h3>proximamente</h3>
+                  <anime-carousel class="proximamente_carousel"></anime-carousel>
+                </div>
+               <div class="m-10 p-10 flex justify-center">
+                  <poster-card style="max-width: min(100%,1200px);"></poster-card>
+               </div>
+              </div>
+              <div slot="page-1">
+                <search-filter></search-filter>
+                <anime-grid id="grid1"></anime-grid>
+              </div>
+              <div slot="page-2">
+                <anime-grid id="Favoritos_grid"></anime-grid>
 
-    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+              </div>
+              <div slot="page-3">
+                <anime-grid id="Historial_grid"></anime-grid>
 
-    <!-- add to homescreen for ios -->
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Ionic App" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  </head>
+              </div>
+              <div slot="page-4">
+                  <user-profile></user-profile>
+              </div>
+              <div slot="page-5">
 
-  <body>
-    <my-element></my-element>
-    <script src="/src/index.js" type="module"></script>
-  </body>
+              </div>
+          </main-content>
 
+             <h2 class="nexus-black hidden">Nexa Black</h2>
+            </div>
+    </div>
+    <script type="module" >
+      import {updateHistorial} from './src/pages/historial.js';
+      import {renderUserProfile} from './src/pages/cuenta.js';
+      const navbar_element = document.querySelector('responsive-navbar');
+      const main_content_element = document.querySelector('main-content');
+      const url = new URL(window.location.href);
+      navbar_element.addEventListener('item-selected', (e) => {
+        console.log("item-selected", e.detail);
+        // añadimos el index a la url para tener el query param
+
+        if (e.detail){
+          emitchangepage( parseInt( e.detail.index) );
+        }
+
+/*         if (e.detail && index === 1) {
+          location.href = '/search.html';
+          return;
+        }
+        if (e.detail && index === 0) {
+          location.href = '/index.html';
+          return;
+        } */
+      });
+      if (typeof url.searchParams.get('tab') === 'string') {
+          const index = parseInt(url.searchParams.get('tab'));
+          emitchangepage(index);
+        }
+      function emitchangepage(index) {
+        const pageChangedEvent = new CustomEvent('page-changed', {
+                    detail: { pageNumber: index },
+                    bubbles: true,
+                    composed: true
+                });
+        main_content_element.dispatchEvent(pageChangedEvent);
+        if (index === 5){
+          // borramos el token con localStorage
+          localStorage.removeItem('token');
+          location.href = '/login.html';
+          return;
+        }
+        if (index === 4){
+          // Actualizamos el perfil
+          renderUserProfile(JSON.parse(localStorage.getItem('user')));
+        }
+        if (index === 3){
+          // Actualizamos el historial
+          updateHistorial();
+        }
+        url.searchParams.set('tab', index);
+        window.history.pushState(null, '', url);
+      }
+      document.querySelectorAll('anime-carousel').forEach(carousel => {
+        carousel.addEventListener('anime-selected', (e) => {
+          const data = e.detail;
+          console.log("anime-selected", e.detail);
+          const linkToRedirect = data.id ? `/index2.html?ver=${data.id}` : '/index2.html';
+          console.log("linkToRedirect", linkToRedirect);
+          window.location.href = linkToRedirect;
+        });
+      });
+    </script>
+</body>
 </html>

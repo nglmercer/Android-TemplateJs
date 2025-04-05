@@ -1,0 +1,29 @@
+/* Importación de fuentes para el proyecto */
+
+/* Montserrat Light */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Nexa Bold y Black */
+@import url('https://fonts.cdnfonts.com/css/nexa-bold');
+
+/* Definición de fuentes para uso directo con font-family */
+@font-face {
+  font-family: 'montserrat-light';
+  src: local('Montserrat');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nexa-bold';
+  src: local('Nexa Bold');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nexa-black';
+  src: local('Nexa Bold');
+  font-weight: 900;
+  font-style: normal;
+}

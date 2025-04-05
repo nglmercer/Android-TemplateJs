@@ -1,0 +1,1286 @@
+{
+    "emision": [
+        {
+            "idCapitulo": 64592,
+            "numeroCapitulo": 12,
+            "catalogoCapitulo": 5018,
+            "nombreCatalogo": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwamete mita",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/k2cPT0w5\/3.jpg",
+            "temporadaCapitulo": 117,
+            "nombreTemporada": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwamete mita ",
+            "portadaTemporada": "https:\/\/i.ibb.co\/CKMwP5hr\/2.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 43,
+            "lenguajes": [
+                {
+                    "id": 1380,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5018\/117\/64592\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64592
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64568,
+            "numeroCapitulo": 10,
+            "catalogoCapitulo": 5017,
+            "nombreCatalogo": "Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/rfkgx4N2\/02.png",
+            "temporadaCapitulo": 116,
+            "nombreTemporada": "Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu",
+            "portadaTemporada": "https:\/\/i.ibb.co\/CdGJW9M\/04.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 20,
+            "lenguajes": [
+                {
+                    "id": 1333,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5017\/116\/64568\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64568
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64579,
+            "numeroCapitulo": 11,
+            "catalogoCapitulo": 5009,
+            "nombreCatalogo": "Zenshuu",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/jvxSzbdy\/03.jpg",
+            "temporadaCapitulo": 110,
+            "nombreTemporada": "Zenshuu    ",
+            "portadaTemporada": "https:\/\/i.ibb.co\/HpqcjmVr\/03.webp",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 21,
+            "lenguajes": [
+                {
+                    "id": 1366,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5009\/110\/64579\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64579
+                },
+                {
+                    "id": 1367,
+                    "nombre": "espa\u00f1ol",
+                    "lenguaje": "es",
+                    "ruta": "5009\/110\/64579\/audio\/es\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64579
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64530,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 5007,
+            "nombreCatalogo": "Trapezium",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/HTpPp07G\/02.jpg",
+            "temporadaCapitulo": 108,
+            "nombreTemporada": "trapezium",
+            "portadaTemporada": "https:\/\/i.ibb.co\/JFRvm3dN\/03.webp",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 3,
+            "lenguajes": [
+                {
+                    "id": 1230,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5007\/108\/64530\/audio\/jap\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64530
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64577,
+            "numeroCapitulo": 10,
+            "catalogoCapitulo": 5006,
+            "nombreCatalogo": "Fuguushoku \"Kanteishi\" ga Jitsu wa Saikyou Datta",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/SDS42nTz\/03.png",
+            "temporadaCapitulo": 107,
+            "nombreTemporada": "Fuguushoku \"Kanteishi\" ga Jitsu wa Saikyou Datta",
+            "portadaTemporada": "https:\/\/i.ibb.co\/SwVhYbM6\/02.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 29,
+            "lenguajes": [
+                {
+                    "id": 1343,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5006\/107\/64577\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64577
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64578,
+            "numeroCapitulo": 10,
+            "catalogoCapitulo": 5005,
+            "nombreCatalogo": "Momentary Lily",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/DPxZs0kb\/02.png",
+            "temporadaCapitulo": 106,
+            "nombreTemporada": "Momentary Lily",
+            "portadaTemporada": "https:\/\/i.ibb.co\/YBDf23mC\/03.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 1355,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5005\/106\/64578\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64578
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64570,
+            "numeroCapitulo": 10,
+            "catalogoCapitulo": 5004,
+            "nombreCatalogo": "Around 40 Otoko no Isekai Tsuuhan",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/nq2pL0QW\/02.jpg",
+            "temporadaCapitulo": 105,
+            "nombreTemporada": "Around 40 Otoko no Isekai Tsuuhan",
+            "portadaTemporada": "https:\/\/i.ibb.co\/DPb7hTfn\/03.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 11,
+            "lenguajes": [
+                {
+                    "id": 1365,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5004\/105\/64570\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64570
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64571,
+            "numeroCapitulo": 9,
+            "catalogoCapitulo": 5003,
+            "nombreCatalogo": "Ameku Takao no Suiri Karte",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/YFBnSCFh\/02.jpg",
+            "temporadaCapitulo": 104,
+            "nombreTemporada": "Ameku Takao no Suiri Karte",
+            "portadaTemporada": "https:\/\/i.ibb.co\/nNybn7f0\/03.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 6,
+            "lenguajes": [
+                {
+                    "id": 1335,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5003\/104\/64571\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64571
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64573,
+            "numeroCapitulo": 11,
+            "catalogoCapitulo": 5002,
+            "nombreCatalogo": "Izure Saikyou no Renkinjutsushi",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/LhscvHpw\/02.jpg",
+            "temporadaCapitulo": 103,
+            "nombreTemporada": "Izure Saikyou no Renkinjutsushi?",
+            "portadaTemporada": "https:\/\/i.ibb.co\/nqW93gH6\/03.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 19,
+            "lenguajes": [
+                {
+                    "id": 1336,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5002\/103\/64573\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64573
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64575,
+            "numeroCapitulo": 10,
+            "catalogoCapitulo": 5001,
+            "nombreCatalogo": "Magic Maker: Isekai Mahou no Tsukurikata",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/fzbxmn9N\/02.png",
+            "temporadaCapitulo": 99,
+            "nombreTemporada": "Magic Maker: Isekai Mahou no Tsukurikata",
+            "portadaTemporada": "https:\/\/i.ibb.co\/bZNLGYx\/3.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 24,
+            "lenguajes": [
+                {
+                    "id": 1340,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5001\/99\/64575\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64575
+                },
+                {
+                    "id": 1341,
+                    "nombre": "espa\u00f1ol",
+                    "lenguaje": "es",
+                    "ruta": "5001\/99\/64575\/audio\/es\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64575
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64421,
+            "numeroCapitulo": 20,
+            "catalogoCapitulo": 5000,
+            "nombreCatalogo": "Ao no Hako",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/Fqx3TSTf\/03.png",
+            "temporadaCapitulo": 98,
+            "nombreTemporada": "Ao no Hako",
+            "portadaTemporada": "https:\/\/i.ibb.co\/5h4b4Bpr\/02.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 16,
+            "lenguajes": [
+                {
+                    "id": 1105,
+                    "nombre": "espa\u00f1ol",
+                    "lenguaje": "es",
+                    "ruta": "5000\/98\/64421\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64421
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64263,
+            "numeroCapitulo": 7,
+            "catalogoCapitulo": 4998,
+            "nombreCatalogo": "Sakamoto Days",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/FLNMgsGm\/sakamoto-days-key-visual-anime-banner-redraw-clean-and-edit-v0-5cp1y1x3ry2d1.png",
+            "temporadaCapitulo": 92,
+            "nombreTemporada": "sakamoto days",
+            "portadaTemporada": "https:\/\/i.ibb.co\/HDCQD3gQ\/taro-sakamoto-in-the-anime-trailer-and-in-the-sakamoto-days-manga.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 64,
+            "lenguajes": [
+                {
+                    "id": 1031,
+                    "nombre": "espa\u00f1ol",
+                    "lenguaje": "es",
+                    "ruta": "4998\/92\/64263\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64263
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64247,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4995,
+            "nombreCatalogo": "tokyo ghoul",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/NnbtsyXL\/app-page-com.jpg",
+            "temporadaCapitulo": 78,
+            "nombreTemporada": "Tokyo Ghoul.",
+            "portadaTemporada": "https:\/\/i.ibb.co\/d422S8g4\/temporada-1-1.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 7,
+            "lenguajes": []
+        },
+        {
+            "idCapitulo": 64561,
+            "numeroCapitulo": 10,
+            "catalogoCapitulo": 4994,
+            "nombreCatalogo": "Kusuriya no Hitorigoto",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/vC45M37c\/filters-quality-95-format-webp-5.webp",
+            "temporadaCapitulo": 77,
+            "nombreTemporada": "Los diarios de la boticaria",
+            "portadaTemporada": "https:\/\/i.ibb.co\/Y76Qrc32\/maomao-collects-herbs-in-the-apothecary-diaries.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 7,
+            "lenguajes": [
+                {
+                    "id": 1327,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "4994\/102\/64561\/audio\/jap\/list.m3u8",
+                    "estado": 7,
+                    "idCapitulo": 64561
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63739,
+            "numeroCapitulo": 15,
+            "catalogoCapitulo": 801,
+            "nombreCatalogo": "Digimon Adventure",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/HK493jS\/Captura-de-pantalla-2024-10-17-162919.png",
+            "temporadaCapitulo": 43,
+            "nombreTemporada": "(2020)",
+            "portadaTemporada": "https:\/\/i.ibb.co\/LdQBLVr\/Captura-de-pantalla-2024-10-17-163130.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 10,
+            "lenguajes": [
+                {
+                    "id": 412,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "801\/43\/63739\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63739
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63989,
+            "numeroCapitulo": 11,
+            "catalogoCapitulo": 4957,
+            "nombreCatalogo": "Dan Da Dan ",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/ymCgLsw\/ddd-blogroll-1726165218086.jpg",
+            "temporadaCapitulo": 26,
+            "nombreTemporada": "dan da dan",
+            "portadaTemporada": "https:\/\/i.ibb.co\/wgWhwz5\/Diseno-sin-titulo-35-1.webp",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 18,
+            "lenguajes": [
+                {
+                    "id": 802,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4957\/26\/63989\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63989
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63915,
+            "numeroCapitulo": 6,
+            "catalogoCapitulo": 4948,
+            "nombreCatalogo": "Dragon Ball",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/t4sRKp4\/dragon-ball-daima-opening.jpg",
+            "temporadaCapitulo": 22,
+            "nombreTemporada": "Daima ",
+            "portadaTemporada": "https:\/\/i.ibb.co\/hd2wxqg\/dragon-ball-daima-2024-by-cellbuzer-dgc625j-fullview.jpg",
+            "numeroTemporada": 2,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 16,
+            "lenguajes": [
+                {
+                    "id": 713,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "4948\/22\/63915\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63915
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63491,
+            "numeroCapitulo": 12,
+            "catalogoCapitulo": 4943,
+            "nombreCatalogo": "Alya Sometimes Hides Her Feelings in Russian ",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/cTWxvyK\/alyasometimeshidesherfeelingsinrussian-teaservisual-1-e1695552218227.jpg",
+            "temporadaCapitulo": 15,
+            "nombreTemporada": "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san",
+            "portadaTemporada": "https:\/\/i.ibb.co\/ChXdCV2\/filters-quality-95-format-webp.webp",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 1,
+            "reproduccionesCapitulo": 22,
+            "lenguajes": [
+                {
+                    "id": 129,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "4943\/15\/63491\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63491
+                }
+            ]
+        }
+    ],
+    "proximamente": [
+        {
+            "idCapitulo": 64248,
+            "numeroCapitulo": 5,
+            "catalogoCapitulo": 4996,
+            "nombreCatalogo": "That Time I Got Reincarnated as a Slime ",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/x8XTvGx6\/TTIGRSIC-header-mobile.png",
+            "temporadaCapitulo": 81,
+            "nombreTemporada": "That Time I Got Reincarnated as a Slime",
+            "portadaTemporada": "https:\/\/i.ibb.co\/BH6cJvfN\/ffbb1b94eb3fe839c4724d41d50cf1012daa4c8bc9f581a342feecc0fe45b83a.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 3,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 1020,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4996\/81\/64248\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64248
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64077,
+            "numeroCapitulo": 2,
+            "catalogoCapitulo": 670,
+            "nombreCatalogo": "Dr. Stone",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/Mk0K3WR\/1-3.png",
+            "temporadaCapitulo": 4,
+            "nombreTemporada": "Season 1",
+            "portadaTemporada": "https:\/\/i.blogs.es\/2b2aa9\/dr-stone\/1366_2000.jpeg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 3,
+            "reproduccionesCapitulo": 1,
+            "lenguajes": []
+        },
+        {
+            "idCapitulo": 63620,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4965,
+            "nombreCatalogo": "Doraemon ",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/mTzxRC4\/Collection-Banners-408144b0-93af-4d22-9cdd-a942d1a64814-1024x1024.webp",
+            "temporadaCapitulo": 35,
+            "nombreTemporada": "Doraemon (1979)",
+            "portadaTemporada": "https:\/\/i.ibb.co\/Q9WrxLB\/p10841499-b-h10-ad.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 3,
+            "reproduccionesCapitulo": 23,
+            "lenguajes": []
+        },
+        {
+            "idCapitulo": 63550,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4961,
+            "nombreCatalogo": "Spy x Family",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/RCBB3Kz\/83edca494667495eaa945eccd2de76f00c5cf07d7e5d3ec1b6447c01475b3743.jpg",
+            "temporadaCapitulo": 30,
+            "nombreTemporada": "Spy x Family",
+            "portadaTemporada": "https:\/\/i.ibb.co\/fnDV4xC\/R8kOej.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 3,
+            "reproduccionesCapitulo": 37,
+            "lenguajes": [
+                {
+                    "id": 240,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4961\/30\/63550\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63550
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63542,
+            "numeroCapitulo": 12,
+            "catalogoCapitulo": 4959,
+            "nombreCatalogo": "My Dress-Up Darling",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/JdNZqnR\/b70d5c60ddbe05de6a52ce11746d975b7b795b00d042257932c3d9903f482d7d.jpg",
+            "temporadaCapitulo": 29,
+            "nombreTemporada": "My Dress-Up Darling",
+            "portadaTemporada": "https:\/\/i.ibb.co\/qdFX8b1\/e882b318ff164f165ac4918e6118ab49.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 3,
+            "reproduccionesCapitulo": 2,
+            "lenguajes": [
+                {
+                    "id": 988,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4959\/29\/63542\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63542
+                }
+            ]
+        },
+        {
+            "idCapitulo": 21099,
+            "numeroCapitulo": 5,
+            "catalogoCapitulo": 1623,
+            "nombreCatalogo": "Wonder egg priority",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/QcLqdZd\/wonder-egg-priority-special-edition-poster-ek1xgpvp1tnjixqy.jpg",
+            "temporadaCapitulo": 1,
+            "nombreTemporada": "wonder egg priority",
+            "portadaTemporada": "https:\/\/i.ibb.co\/f8DZcWL\/descarga.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 3,
+            "reproduccionesCapitulo": 8,
+            "lenguajes": []
+        }
+    ],
+    "finalizado": [
+        {
+            "idCapitulo": 64531,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 5008,
+            "nombreCatalogo": "Sankarea",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/sdkd5Z0M\/02.jpg",
+            "temporadaCapitulo": 109,
+            "nombreTemporada": "Sankarea",
+            "portadaTemporada": "https:\/\/i.ibb.co\/RG8JmSNR\/03.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 1270,
+                    "nombre": "japones",
+                    "lenguaje": "jap",
+                    "ruta": "5008\/109\/64531\/audio\/jap\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64531
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64252,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4999,
+            "nombreCatalogo": "Yu-Gi-Oh! ",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/1fZQKNtS\/CYT3g-FWd-H-1256x620-1.png",
+            "temporadaCapitulo": 93,
+            "nombreTemporada": "El Reino de los Duelistas",
+            "portadaTemporada": "https:\/\/i.ibb.co\/7NjGkgqZ\/DL-GO-RUSH-Carousel-Banner.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 1022,
+                    "nombre": "espa\u00f1ol",
+                    "lenguaje": "es",
+                    "ruta": "4999\/93\/64252\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64252
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64080,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4991,
+            "nombreCatalogo": "Chronicles of the Going Home Club ",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/v1Z59hV\/f2a4e564d8b86a227545dfc38dc4a36dd15a76187105726e8cd6d5efbbc3de10.jpg",
+            "temporadaCapitulo": 68,
+            "nombreTemporada": "Chronicles of the Going Home Club ",
+            "portadaTemporada": "https:\/\/i.ibb.co\/N6V9357\/Kitakubu.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 947,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "4991\/68\/64080\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64080
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64079,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4993,
+            "nombreCatalogo": "Sing a Bit of Harmony",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/9W9h5R4\/35234d57bcc3b566a75d01c414070c87.jpg",
+            "temporadaCapitulo": 67,
+            "nombreTemporada": "Lead Your Partner",
+            "portadaTemporada": "https:\/\/i.ibb.co\/26V9KBj\/images-21.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 15,
+            "lenguajes": [
+                {
+                    "id": 904,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "4993\/67\/64079\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64079
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64052,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4990,
+            "nombreCatalogo": "Blue Exorcist ",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/1dB80g0\/Anime-Blue-Exorcist-Special-Visual-Shimane-Illuminati-Saga.jpg",
+            "temporadaCapitulo": 65,
+            "nombreTemporada": "Blue Exorcist",
+            "portadaTemporada": "https:\/\/i.ibb.co\/fxxnsV5\/temporada-1.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 3,
+            "lenguajes": [
+                {
+                    "id": 884,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "4990\/65\/64052\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64052
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64028,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4988,
+            "nombreCatalogo": "Nagatoro-sanS",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/Cvz8hCW\/eczv5huni9i51.webp",
+            "temporadaCapitulo": 63,
+            "nombreTemporada": "Ijiranaide, Nagatoro-san",
+            "portadaTemporada": "https:\/\/i.ibb.co\/k2j8sdc\/Ijiranaide-Nagatoro-san-banner.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 10,
+            "lenguajes": [
+                {
+                    "id": 840,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4988\/63\/64028\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64028
+                }
+            ]
+        },
+        {
+            "idCapitulo": 64002,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4987,
+            "nombreCatalogo": "Attack on Titan ",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/QY6mNh3\/attack-on-titan-pictures-uk5xzd7go5nb00sj.jpg",
+            "temporadaCapitulo": 62,
+            "nombreTemporada": "Attack on Titan\" (Shingeki no Kyojin)",
+            "portadaTemporada": "https:\/\/i.ibb.co\/cDYyBcB\/filters-quality-95-format-webp-4.webp",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 12,
+            "lenguajes": [
+                {
+                    "id": 815,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4987\/62\/64002\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 64002
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63990,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4985,
+            "nombreCatalogo": "Chainsaw Man",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/r6JgL8w\/portada-chainsaw-man-6.jpg",
+            "temporadaCapitulo": 61,
+            "nombreTemporada": "Chainsaw Man ",
+            "portadaTemporada": "https:\/\/i.ibb.co\/0B82yVp\/download.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 14,
+            "lenguajes": [
+                {
+                    "id": 804,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4985\/61\/63990\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63990
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63916,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4983,
+            "nombreCatalogo": "Kaguya-sama_ Love Is War",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/GF0Jkmq\/1daf042ca21792269683add671b6625caf019b5e712c00ed4b8e6e899ef81ad9.jpg",
+            "temporadaCapitulo": 57,
+            "nombreTemporada": "Love Is War",
+            "portadaTemporada": "https:\/\/i.ibb.co\/z6mZRhV\/temporada-3.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 714,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4983\/57\/63916\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63916
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63880,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4981,
+            "nombreCatalogo": "Hotel Hazbin ",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/jyW8tP6\/7aa3e93fb128416e6889838de4b3b60c78fa9f8e087dc6475aff2a0c4fa5ccc0.jpg",
+            "temporadaCapitulo": 55,
+            "nombreTemporada": "El hotel de las viejas glorias ",
+            "portadaTemporada": "https:\/\/i.ibb.co\/BGwTy0y\/imagen-2024-11-11-003145364.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 5,
+            "lenguajes": [
+                {
+                    "id": 673,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "Es",
+                    "ruta": "4981\/55\/63880\/audio\/Es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63880
+                },
+                {
+                    "id": 681,
+                    "nombre": "Ingles",
+                    "lenguaje": "ing",
+                    "ruta": "4981\/55\/63880\/audio\/ing\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63880
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63873,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4980,
+            "nombreCatalogo": "Mashle",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/T0vCBWw\/Captura-de-pantalla-2024-11-06-004500.png",
+            "temporadaCapitulo": 54,
+            "nombreTemporada": "una nueva secuela",
+            "portadaTemporada": "https:\/\/i.ibb.co\/T0vCBWw\/Captura-de-pantalla-2024-11-06-004500.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 11,
+            "lenguajes": [
+                {
+                    "id": 646,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4980\/54\/63873\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63873
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63848,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4977,
+            "nombreCatalogo": "Tokyo Revengers",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/tYkzkZ7\/una-recopilacion-con-todos-y-cada-uno-de-los-arcos-argumentales-de-tokyo-revengers-y-su-extension-en.jpg",
+            "temporadaCapitulo": 52,
+            "nombreTemporada": "Bloody Halloween Arc\" ",
+            "portadaTemporada": "https:\/\/i.ibb.co\/M8rYWtK\/Tokyo-Revengers-nuevas-licencias-norma-editorial-El-Palomitron.webp",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 620,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4977\/52\/63848\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63848
+                },
+                {
+                    "id": 621,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "4977\/52\/63848\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63848
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63821,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4976,
+            "nombreCatalogo": "WIND BREAKER",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/56YGfSn\/main-2nd-e1709652698736.jpg",
+            "temporadaCapitulo": 50,
+            "nombreTemporada": "Haruka Sakura",
+            "portadaTemporada": "https:\/\/i.ibb.co\/4t32DFv\/c18840b8939a32c6654e7e457635fa69a9f80c03df877465f052561f4e5d48d5.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 537,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4976\/50\/63821\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63821
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63806,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4971,
+            "nombreCatalogo": "FAIRY TAIL 100 YEARS QUEST",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/566LPNH\/portada-fairytail.jpg",
+            "temporadaCapitulo": 49,
+            "nombreTemporada": "\"El 'Primer' Gremio\"",
+            "portadaTemporada": "https:\/\/i.ibb.co\/pZmBCJ5\/unnamed.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 2,
+            "lenguajes": [
+                {
+                    "id": 525,
+                    "nombre": "Japones",
+                    "lenguaje": "Jp",
+                    "ruta": "4971\/49\/63806\/audio\/Jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63806
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63720,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4968,
+            "nombreCatalogo": "Assassination Classroom",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/nCGX9DD\/wp5869314.jpg",
+            "temporadaCapitulo": 42,
+            "nombreTemporada": "Assassination Classroom Season 1",
+            "portadaTemporada": "https:\/\/i.ibb.co\/SJJBJFN\/605582.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 2,
+            "lenguajes": [
+                {
+                    "id": 394,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4968\/42\/63720\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63720
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63677,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4973,
+            "nombreCatalogo": "A Journey Through Another World",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/9YV66QY\/54c1578f7c441dd7d9d610a2ba7c5f30.jpg",
+            "temporadaCapitulo": 37,
+            "nombreTemporada": "Los Primeros Pasos en un Mundo Desconocido",
+            "portadaTemporada": "https:\/\/i.ibb.co\/4JNybqs\/a-journey-through-another-world-header.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 2,
+            "lenguajes": [
+                {
+                    "id": 357,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4973\/37\/63677\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63677
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63602,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4964,
+            "nombreCatalogo": "Record of Lodoss War",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/G0yMgr0\/recordoflodoss-1000x600.jpg",
+            "temporadaCapitulo": 33,
+            "nombreTemporada": "\"Record of Lodoss War: OVA\"",
+            "portadaTemporada": "https:\/\/i.ibb.co\/yBBczt1\/deedlit-in-wonder-labyrinth-record-of-lodoss-war-retail-keyart.webp",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 23,
+            "lenguajes": [
+                {
+                    "id": 216,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4964\/33\/63602\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63602
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63574,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4963,
+            "nombreCatalogo": "Seirei Gensouki",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/Bgy2S1Z\/thumb-1920-1176940.jpg",
+            "temporadaCapitulo": 32,
+            "nombreTemporada": "Spirit Chronicles",
+            "portadaTemporada": "https:\/\/i.ibb.co\/89tTL2R\/2b2f015ed1adf726347dd4df8bc41df3.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 9,
+            "lenguajes": [
+                {
+                    "id": 502,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "Es",
+                    "ruta": "4963\/32\/63574\/audio\/Es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63574
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63541,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4958,
+            "nombreCatalogo": "takt op.Destiny",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/jDw3fCY\/images-9.jpg",
+            "temporadaCapitulo": 28,
+            "nombreTemporada": "takt op.Destiny",
+            "portadaTemporada": "https:\/\/i.ibb.co\/84b002T\/images-8.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 5,
+            "lenguajes": [
+                {
+                    "id": 308,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4958\/28\/63541\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63541
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63540,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 415,
+            "nombreCatalogo": "Darling in the FranXX",
+            "imagenFondoCatalogo": "https:\/\/tioanime.com\/uploads\/fondos\/2897.jpg",
+            "temporadaCapitulo": 27,
+            "nombreTemporada": "Darling in the Franxx",
+            "portadaTemporada": "https:\/\/i.ibb.co\/pQbX7GF\/desktop-wallpaper-anime-banner-zero-two-cool-anime-banners.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 4,
+            "lenguajes": [
+                {
+                    "id": 773,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "415\/27\/63540\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63540
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63534,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4953,
+            "nombreCatalogo": "My Hero Academia",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/PWyyk4q\/c6fb5cd7b9864c767a19a2626fec44dd.jpg",
+            "temporadaCapitulo": 25,
+            "nombreTemporada": "Boku no Hero Academia",
+            "portadaTemporada": "https:\/\/i.ibb.co\/F0PnfqB\/boku-no-hero-temporada-1.webp",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 3,
+            "lenguajes": [
+                {
+                    "id": 176,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4953\/25\/63534\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63534
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63522,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4952,
+            "nombreCatalogo": "The Unwanted Undead Adventurer",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/bsG6Wmq\/maxresdefault.jpg",
+            "temporadaCapitulo": 24,
+            "nombreTemporada": "Nozomanu Fushin no Boukensha",
+            "portadaTemporada": "https:\/\/i.ibb.co\/ZfQmD5S\/00efabeb5261492466a949b6dc0e9496df68080256bcaab34b8458991fcbbfa8.png",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 4,
+            "lenguajes": [
+                {
+                    "id": 162,
+                    "nombre": "Ingles EE UU",
+                    "lenguaje": "Eng",
+                    "ruta": "4952\/24\/63522\/audio\/Eng\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63522
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63508,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4946,
+            "nombreCatalogo": "suppose a kid from the last dungeon boonies moved to a starter town",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/LQ7dRPR\/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town-banner.jpg",
+            "temporadaCapitulo": 20,
+            "nombreTemporada": "\"Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari\"",
+            "portadaTemporada": "https:\/\/i.ibb.co\/TMLDLXd\/series-page-banner-1920x944-last-dungeon-boonies-copyrightfront-191025-M-s-TG9r3-X.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 10,
+            "lenguajes": [
+                {
+                    "id": 142,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4946\/20\/63508\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63508
+                },
+                {
+                    "id": 143,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "4946\/20\/63508\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63508
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63500,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4944,
+            "nombreCatalogo": "solo leveling",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/RB6LD03\/solo-leveling-arise-jinwoo.webp",
+            "temporadaCapitulo": 18,
+            "nombreTemporada": " Solo Leveling Season 1",
+            "portadaTemporada": "https:\/\/i.ibb.co\/CBhKKX0\/filters-quality-95-format-webp-1.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 9,
+            "lenguajes": [
+                {
+                    "id": 132,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4944\/18\/63500\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63500
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63468,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4928,
+            "nombreCatalogo": "Combatants Will Be Dispatched!",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/JqPLJXM\/1696379999.png",
+            "temporadaCapitulo": 13,
+            "nombreTemporada": "Combatants Will Be Dispatched!",
+            "portadaTemporada": "https:\/\/i.ibb.co\/8zSZHdP\/images-2.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 96,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4928\/13\/63468\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63468
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63445,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4929,
+            "nombreCatalogo": "Love Is Indivisible by Twins",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/fvcGPPc\/63edf556d4af6207331696992ebfd67d1030964ba28f15f8e61f2a695ef3d036.jpg",
+            "temporadaCapitulo": 12,
+            "nombreTemporada": "Love Is Indivisible by Twins",
+            "portadaTemporada": "https:\/\/i.ibb.co\/fvcGPPc\/63edf556d4af6207331696992ebfd67d1030964ba28f15f8e61f2a695ef3d036.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 0,
+            "lenguajes": [
+                {
+                    "id": 85,
+                    "nombre": "japones",
+                    "lenguaje": "jp",
+                    "ruta": "4929\/12\/63445\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63445
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63417,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4931,
+            "nombreCatalogo": " Belle",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/6PgjTfP\/maxresdefault.jpg",
+            "temporadaCapitulo": 9,
+            "nombreTemporada": "BELL",
+            "portadaTemporada": "https:\/\/i.ibb.co\/6PgjTfP\/maxresdefault.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 10,
+            "lenguajes": [
+                {
+                    "id": 39,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4931\/9\/63417\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63417
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63414,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 4923,
+            "nombreCatalogo": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/KFRvM1C\/Zom-100-Zombie-ni-Naru-made-ni-Shitai-100-no-Koto.jpg",
+            "temporadaCapitulo": 8,
+            "nombreTemporada": "teporda ",
+            "portadaTemporada": "https:\/\/i.ibb.co\/qdcbHbJ\/Zombie-100-destacado-1000x600-1630061283-1.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 13,
+            "lenguajes": [
+                {
+                    "id": 38,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "4923\/8\/63414\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63414
+                },
+                {
+                    "id": 42,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "4923\/8\/63414\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63414
+                }
+            ]
+        },
+        {
+            "idCapitulo": 63399,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 2064,
+            "nombreCatalogo": "Zero no Tsukaima",
+            "imagenFondoCatalogo": "https:\/\/tioanime.com\/uploads\/fondos\/183.jpg",
+            "temporadaCapitulo": 7,
+            "nombreTemporada": "1",
+            "portadaTemporada": "https:\/\/i.ibb.co\/PcHk5rj\/d24xmc7-7cf54f42-6edd-4cf6-a438-545308e89b93.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 3,
+            "lenguajes": [
+                {
+                    "id": 21,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "2064\/7\/63399\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63399
+                },
+                {
+                    "id": 25,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "2064\/7\/63399\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 63399
+                }
+            ]
+        },
+        {
+            "idCapitulo": 1,
+            "numeroCapitulo": 1,
+            "catalogoCapitulo": 1,
+            "nombreCatalogo": "Kaiju No.8",
+            "imagenFondoCatalogo": "https:\/\/i.ibb.co\/Ptk5q15\/926ab0d1f3d40c95808c14e018f84003.jpg",
+            "temporadaCapitulo": 3,
+            "nombreTemporada": "Kaiju No.8",
+            "portadaTemporada": "https:\/\/i.ibb.co\/LzVwV7L\/9241916bde4cb66e4c2f03c897e22814.jpg",
+            "numeroTemporada": 1,
+            "estadoCatalogo": 2,
+            "reproduccionesCapitulo": 17,
+            "lenguajes": [
+                {
+                    "id": 1,
+                    "nombre": "Espa\u00f1ol Latino",
+                    "lenguaje": "es",
+                    "ruta": "1\/3\/1\/audio\/es\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 1
+                },
+                {
+                    "id": 2,
+                    "nombre": "English",
+                    "lenguaje": "en",
+                    "ruta": "audios\/enUS\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 1
+                },
+                {
+                    "id": 63,
+                    "nombre": "Japones",
+                    "lenguaje": "jp",
+                    "ruta": "1\/3\/1\/audio\/jp\/list.m3u8",
+                    "estado": 1,
+                    "idCapitulo": 1
+                }
+            ]
+        }
+    ]
+}

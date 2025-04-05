@@ -1,0 +1,229 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color-scheme: light dark;
+    background-color: #38124f;
+}
+
+.Basebody {
+    display: grid;
+    grid-template-columns: min(5rem, 10%) auto;
+    grid-template-rows: repeat(10, 1fr);
+    gap: 8px;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main1 {
+    grid-row: span 10 / span 10;
+}
+
+.main2 {
+    grid-column: 2 / -1;
+    grid-row: span 10 / span 10;
+    max-width: min(100dvw, 100%);
+    overflow: auto;
+}
+
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .main1 {
+        grid-column: span 10 / span 10; /* Full width */
+        grid-row: 1 / 2; /* Takes first 2 rows */
+    }
+
+    .main2 {
+        grid-column: span 10 / span 10; /* Full width */
+        grid-row: 2 / span 9; /* Takes rows 3-10 */
+    }
+}
+.main_container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  max-width: min(auto, 100%);
+}
+
+@media (max-width: 768px) {
+  .main_container {
+    grid-template-columns: 1fr;
+  }
+}
+.m-5 { margin: 5px; }
+.m-10 { margin: 10px; }
+.m-15 { margin: 15px; }
+.m-20 { margin: 20px; }
+.m-25 { margin: 25px; }
+.m-30 { margin: 30px; }
+.p-5 { padding: 5px; }
+.p-10 { padding: 10px; }
+.p-15 { padding: 15px; }
+.p-20 { padding: 20px; }
+.p-25 { padding: 25px; }
+.p-30 { padding: 30px; }
+@font-face {
+    font-family: 'nexa-black';
+    src: url('./Nexa-Heavy.ttf') format('truetype');
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Lado a lado en pantallas grandes */
+    align-items: center;
+    margin: 5px;
+    gap: 10px;
+}
+
+.grid-item {
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* En pantallas pequeñas, cambia el orden */
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-areas: 
+            "segundo"
+            "primero";
+    }
+
+    .grid-item:nth-child(1) {
+        grid-area: primero;
+    }
+
+    .grid-item:nth-child(2) {
+        grid-area: segundo;
+    }
+}
+
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.grid { display: grid; }
+.flex { display: flex; }
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.border-radius-8 { border-radius: 8px; }
+.border-radius-16 { border-radius: 16px; }
+.border-radius-24 { border-radius: 24px; }
+.hidden { display: none; }
+
+/* Estilo 1: Moderno y limpio */
+.season-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-block: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.season-episodes {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-block: 0.5rem;
+}
+
+/* Estilo 2: Bold y colorido */
+.season-title.style2 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+}
+
+.season-episodes.style2 {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Estilo 3: Minimalista con hover */
+.season-title.style3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.season-title.style3:hover {
+    color: #3498db;
+}
+
+.season-episodes.style3 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* Estilo 4: Elegante con gradiente */
+.season-title.style4 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, #8e44ad, #3498db);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.season-episodes.style4 {
+    font-size: 1.1rem;
+    border-left: 3px solid #8e44ad;
+    padding-left: 10px;
+}
+.cssposter {
+    display: grid;
+    gap: 8px;
+    /* Desktop por defecto */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, auto);
+    align-items: center;
+}
+
+.pos1 {
+    grid-row: span 5; /* Ocupa 5 filas */
+    grid-column: 1;   /* Fijo en columna 1 */
+}
+
+.pos2 {
+    grid-column: 2 / span 4; /* Empieza en columna 2, ocupa 4 */
+    grid-row: span 4;        /* Ocupa 4 filas */
+}
+
+.pos3 {
+    grid-column: 2 / span 4; /* Empieza en columna 2, ocupa 4 */
+    grid-row: 5 / span 6;    /* Empieza en fila 5, ocupa 6 */
+}
+
+/* Media query para mobile/tablet */
+@media (max-width: 1200px) {
+    .cssposter {
+        align-items: start;
+    }
+}
+@media (max-width: 768px) {
+    .cssposter {
+        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-rows: auto;  /* Altura automática */
+    }
+
+    .pos1 {
+        grid-column: 1;        /* Ocupa toda la columna */
+        grid-row: 2;           /* Posición ajustada */
+    }
+
+    .pos2 {
+        grid-column: 1;        /* Ocupa toda la columna */
+        grid-row: 1;           /* Primero en mobile */
+    }
+
+    .pos3 {
+        grid-column: 1;        /* Ocupa toda la columna */
+        grid-row: 3;           /* Último en mobile */
+    }
+}
