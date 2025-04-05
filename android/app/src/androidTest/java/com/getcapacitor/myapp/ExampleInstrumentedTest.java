@@ -1,4 +1,4 @@
-package com.getcapacitor.myapp;
+package com.getcapacitor.koinima;
 
 import static org.junit.Assert.*;
 

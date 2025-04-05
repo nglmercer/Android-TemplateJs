@@ -1,5 +1,5 @@
 {
-  "name": "myApp",
+  "name": "koinima",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -12,8 +12,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@angular/common": "^19.2.4",
+    "@angular/core": "^19.2.4",
+    "@angular/platform-browser": "^19.2.4",
+    "@angular/platform-browser-dynamic": "^19.2.4",
     "@capacitor/android": "7.2.0",
     "@capacitor/app": "7.0.1",
+    "@capacitor/assets": "^3.0.5",
     "@capacitor/core": "7.2.0",
     "@capacitor/haptics": "7.0.1",
     "@capacitor/keyboard": "7.0.1",
@@ -21,17 +26,13 @@
     "@ionic/vue": "^8.0.0",
     "@ionic/vue-router": "^8.0.0",
     "ionicons": "^7.0.0",
-    "vue": "^3.3.0",
-    "vue-router": "^4.2.0",
-    "@angular/common": "^19.2.4",
-    "@angular/core": "^19.2.4",
-    "@angular/platform-browser": "^19.2.4",
-    "@angular/platform-browser-dynamic": "^19.2.4",
     "lit": "^3.2.1",
     "m3u8-parser": "^7.2.0",
     "plyr": "^3.7.8",
     "rxjs": "^7.8.2",
     "sweetalert2": "^11.17.2",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
     "zone.js": "^0.15.0"
   },
   "devDependencies": {
