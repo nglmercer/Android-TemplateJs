@@ -173,7 +173,7 @@ async function getandsetEpisode(data) {
    // iframeManager.updateContent();
    console.log("data.id",existID, getURLPARAMS(existID));
    // localPlayer = "/src/player/index.html" + getURLPARAMS(existID);
-   const urlToplayer = "http://localhost:4200/src/player/index.html" + getURLPARAMS(existID);
+   const urlToplayer = "/src/player/index.html" + getURLPARAMS(existID);
    iframeManager.updateContent(urlToplayer);
    const set_content_element = document.querySelector('set-content');
    const pageChangedEvent = new CustomEvent('page-changed', {
