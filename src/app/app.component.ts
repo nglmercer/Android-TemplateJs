@@ -1,70 +1,60 @@
-// src/app/app.component.ts (o .js)
-import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { CommonModule } from '@angular/common'; // <--- Importa CommonModule
-import '../components/login-element.js';
-
+// src/app/app.component.ts
+import { Component, OnInit, OnDestroy, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'; // Quita Renderer2
+import { CommonModule } from '@angular/common';
+import '../lit/login-element.js';
 
 @Component({
   selector: 'app-root',
-  standalone: true, // <--- ASEGÚRATE QUE ESTÉ PRESENTE
-  imports: [
-      CommonModule // <--- Añade CommonModule a los imports del componente
-  ],
-  // Usamos una plantilla inline para simplicidad en JS
+  standalone: true,
+  imports: [CommonModule],
   template: `
-    <login-element (login-attempt)="handleLoginAttempt($event)"></login-element>
-
-    <div *ngIf="loginFeedback"> <!-- Necesitarías CommonModule para *ngIf -->
-      <p style="margin-top: 15px; font-weight: bold;">Feedback de Angular: {{ loginFeedback }}</p>
-    </div>
+    <login-element
+      (login-attempt)="handleLoginAttempt($event)"
+      (form-focusin)="handleFormFocusIn()"
+      (form-focusout)="handleFormFocusOut()"
+      (navigate-request)="handleNavigationRequest($event)"
+      (login-success)="handleLoginSuccess($event)"
+      (loading-state)="handleLoadingState($event)">
+    </login-element>
+    <!-- Resto del template -->
+    <div *ngIf="loginFeedback">...</div>
+    <div *ngIf="isLoading">...</div>
   `,
-  // Estilos inline opcionales
-  styles: [`
-    h1 {
-      color: darkcyan;
-    }
-    login-element {
-      display: block; /* Asegura que tome espacio */
-    }
-  `],
-  // ¡Esencial para que Angular no se queje de <login-element>!
+  styles: [`...`],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class AppComponent {
-  // Propiedades de la clase
-  title;
-  loginFeedback; // Para mostrar un mensaje desde Angular
+export class AppComponent implements OnInit, OnDestroy {
+  title = 'Mi App Vite con Angular (JS) y Lit (JS)';
+  loginFeedback = '';
+  isLoading = false;
 
+  // Ya NO inyectamos Renderer2
   constructor() {
-    this.title = 'Mi App Vite con Angular (JS) y Lit (JS)';
-    this.loginFeedback = '';
-    console.log('AppComponent (JS) instanciado');
+    console.log('AppComponent (TS) instanciado');
   }
 
-  // Método para manejar el evento del componente Lit
-  handleLoginAttempt(event: CustomEvent<{ username: string; password: string }>) {    // El objeto 'event' es un CustomEvent disparado por Lit.
-    // Los datos vienen en la propiedad 'detail'.
-    const credentials = event.detail;
-
-    console.log('AppComponent (JS) recibió login-attempt:', credentials);
-
-    // Aquí puedes hacer lo que necesites con las credenciales en Angular
-    // Por ejemplo, llamar a un servicio de autenticación
-    if (credentials && credentials.username) {
-      this.loginFeedback = `Intento de login recibido para: ${credentials.username}`;
-      // Simular una llamada a servicio
-      // authService.login(credentials.username, credentials.password);
-    } else {
-      this.loginFeedback = 'Evento de login recibido, pero sin datos.';
-    }
-
-    // Podrías querer limpiar el mensaje después de un tiempo
-    setTimeout(() => { this.loginFeedback = ''; }, 5000);
+  ngOnInit() {
+    console.log('AppComponent (TS) inicializado');
   }
+
+  ngOnDestroy(): void {
+    // Limpia las clases del body si el componente se destruye
+    document.body.classList.remove('form-focused');
+  }
+
+  handleFormFocusIn() {
+    // Usamos directamente document.body.classList
+    document.body.classList.add('form-focused');
+  }
+
+  handleFormFocusOut() {
+    // Usamos directamente document.body.classList
+    document.body.classList.remove('form-focused');
+  }
+
+  // ... resto de los métodos (handleLoginAttempt, etc.) sin cambios ...
+  handleLoginAttempt(event: CustomEvent) { /* ... */ }
+  handleLoginSuccess(event: CustomEvent) { /* ... */ }
+  handleNavigationRequest(event: CustomEvent) { /* ... */ }
+  handleLoadingState(event: CustomEvent) { /* ... */ }
 }
-
-// Nota: Para usar directivas como *ngIf, necesitarías importar CommonModule
-// en tu AppModule (si usas módulos) o importar CommonModule en el array
-// 'imports' del @Component si AppComponent fuera Standalone (lo cual es
-// más complejo de configurar manualmente en JS). Para este ejemplo simple,
-// he añadido el div pero ten en cuenta esa dependencia.
