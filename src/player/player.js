@@ -2,6 +2,8 @@
 import Hls from 'hls.js';
 import Plyr from 'plyr';
 const apibase = "https://api.koinima.com";
+const SUBTITLES_OCTOPUS_WORKER_URL = '/assets/js/subtitles-octopus-worker.js';
+const FONT_FILES = ['/fonts/Arial.ttf', '/fonts/TimesNewRoman.ttf']; // Añade aquí 
 const subtitleUrlTemplate = (id, token) => {
     return apibase + `/res/subtitulos/${id}/v1?Authorization=${token}`;
 }
@@ -64,7 +66,7 @@ class VideoPlayer {
         this.urlParams = new URLSearchParams(window.location.search);
         this.videoUrl = apibase + `/res2/video/master/${this.urlParams.get('capitulo')}?Authorization=${this.urlParams.get('Authorization')}`;
         this.localVideoUrl = `http://localhost:4200/api/m3u8/${this.urlParams.get('capitulo')}`;
-
+        this.octopusInstance = null;
         this.initialize();
     }
 
@@ -98,7 +100,7 @@ class VideoPlayer {
 
         this.hls.audioTrack = this.player.config.audioTrack.options[0];
         this.updateQuality(this.hls.levels[0].height);
-        this.initializeJassub();
+        this.initializeSubtitlesOctopus();
     }
 
     getPlayerOptions(data, availableQualities, subtitleTracks) {
@@ -159,7 +161,7 @@ class VideoPlayer {
         const span = document.querySelector(".plyr__menu__container [data-plyr='quality'][value='0'] span");
         const levelHeight = this.hls.levels[data.level].height;
         span.innerHTML = this.hls.autoLevelEnabled ? `AUTO (${levelHeight}p)` : 'AUTO';
-        this.initializeJassub();
+        this.initializeSubtitlesOctopus();
     }
 
     updateQuality(newQuality) {
@@ -212,7 +214,6 @@ class VideoPlayer {
     }
     initializeJassub() {
         try {
-            console.log("initializeJassub");
             // --- ¡IMPORTANTE! ---
             // Determina la URL correcta para tu archivo de subtítulos (.ass/.ssa)
             // Este es solo un ejemplo basado en tu URL de video, AJÚSTALO.
@@ -238,10 +239,71 @@ class VideoPlayer {
             } */
             //    this.jassub.setTrackByUrl(subtoString);
         } catch (e) {
-            console.log("initializeJassub", e);
+            console.log("error jassub", e);
         }
     }
+    async initializeSubtitlesOctopus() {
+        // 1. Comprobar si la librería está cargada
+        if (typeof SubtitlesOctopus === 'undefined') {
+            console.error('SubtitlesOctopus no está cargado. Asegúrate de incluir el script.');
+            return;
+        }
 
+        // 2. Evitar re-inicialización si ya existe una instancia activa
+        if (this.octopusInstance) {
+            console.log('SubtitlesOctopus ya está inicializado.');
+             this.octopusInstance.canvas.style.display = ''; // Asegurarse de que sea visible
+            return;
+        }
+
+        // 3. Obtener la URL de los subtítulos
+        const subUrl = subtitleUrlTemplate(this.urlParams.get('capitulo'), this.urlParams.get('Authorization'));
+
+        try {
+            console.log("Intentando obtener contenido de subtítulos desde:", subUrl);
+            // 4. Obtener el CONTENIDO (string) de los subtítulos usando tu función
+            const subtitleContent = await fetchSubtitles(subUrl);
+
+            if (!subtitleContent || typeof subtitleContent !== 'string') {
+                console.warn('No se pudo obtener el contenido de los subtítulos o no es un string.');
+                return; // Salir si no hay contenido
+            }
+
+            console.log('Contenido de subtítulos obtenido, inicializando SubtitlesOctopus...');
+
+            // 5. Definir las opciones para SubtitlesOctopus
+            const options = {
+                video: this.video,              // Elemento video HTML
+                subContent: subtitleContent,    // <<< CONTENIDO del archivo .ass/.ssa
+                fonts: FONT_FILES,              // Array de URLs a los archivos de fuentes TFF/OTF/WOFF
+                workerUrl: SUBTITLES_OCTOPUS_WORKER_URL, // URL al script worker
+                debug: true,                   // Activar logs de depuración (útil durante el desarrollo)
+                // legacyWorkerUrl: '/assets/js/subtitles-octopus-legacy-worker.js' // Para navegadores antiguos si es necesario
+                // onReady: () => { console.log('SubtitlesOctopus listo!'); }, // Callback opcional
+                // onError: (error) => { console.error('Error en SubtitlesOctopus:', error); }, // Callback de error
+            };
+
+            // 6. Crear la instancia de SubtitlesOctopus
+            this.octopusInstance = new SubtitlesOctopus(options);
+            console.log('Instancia de SubtitlesOctopus creada:', this.octopusInstance);
+
+            // Sincronizar estado inicial (opcional pero recomendado)
+            // if (this.player.paused) this.octopusInstance.setIsPaused(true);
+            // this.octopusInstance.setRate(this.player.speed);
+            // this.octopusInstance.setCurrentTime(this.player.currentTime);
+
+            // Actualizar el botón de toggle si existe
+            const toggleButton = document.querySelector('.plyr__menu__container button') || document.querySelector('.plyr__controls button'); // Ajustar selector si es necesario
+             if (toggleButton && toggleButton.textContent.includes('Subtítulos =>')) { // Ser más específico
+                 this.updateToggleText(toggleButton, true);
+             }
+
+
+        } catch (error) {
+            console.error('Error al inicializar SubtitlesOctopus:', error);
+             this.octopusInstance = null; // Asegurarse de que no quede una instancia parcial
+        }
+    }
     /**
      * Limpia la pista de subtítulos actual de JASSUB.
      */
