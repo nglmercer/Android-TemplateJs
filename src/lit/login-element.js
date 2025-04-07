@@ -112,6 +112,7 @@ export class LoginLitElement extends LitElement {
         /* --- Dimensiones y centrado del contenido --- */
         max-width: min(100%,600px);
         width: 100%;       /* Ancho relativo para responsividad */
+        height: max(100%, 100dvh);
         display: flex;
         flex-direction: column;
         align-items: center; /* Centra los elementos hijos horizontalmente */
@@ -273,20 +274,6 @@ export class LoginLitElement extends LitElement {
            min-height: 1.2em; /* Evita saltos de layout */
       }
 
-
-      .imagenVideo {
-          user-select: none;
-          position: absolute;
-          height: 100%;
-          width: 100%; /* Cubre todo */
-          top: 0;
-          /* right: 0; */ /* Left 0 es más común */
-          left: 0;
-          z-index: 3000;
-          object-fit: cover; /* Cubre el espacio manteniendo aspecto */
-          object-position: center; /* Centra la imagen */
-      }
-
       @media  (max-width: 700px) {
           .formLogin .divCenter > div { /* Contenedor de inputs */
               width: 85%; /* Un poco más ancho en móvil */
@@ -316,6 +303,7 @@ export class LoginLitElement extends LitElement {
            .divContenidoLogin {
             background-color: transparent;
             backdrop-filter: blur(4px);
+            height: auto;
 
            } /* Casi todo el ancho clip-path: none;*/
       }
