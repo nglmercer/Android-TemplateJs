@@ -1,0 +1,1 @@
+import{al as o,ax as t,J as l,an as u,x as a}from"./template.CtvFqPh1.js";const c="5";typeof window<"u"&&((window.__svelte??={}).v??=new Set).add(c);function i(n){o===null&&t(),l&&o.l!==null?f(o).m.push(n):u(()=>{const e=a(n);if(typeof e=="function")return e})}function r(n){o===null&&t(),i(()=>()=>a(n))}function f(n){var e=n.l;return e.u??={a:[],b:[],m:[]}}export{r as a,i as o};

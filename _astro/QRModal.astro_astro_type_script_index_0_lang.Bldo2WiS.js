@@ -1,0 +1,1 @@
+import{e}from"./Emitter.Ds8CvW_Z.js";import{Q as o}from"./const_emits.D3JDZIBW.js";const n="ImportAPIURL",t=document.getElementById(n);document.addEventListener("DOMContentLoaded",()=>{t&&t.addEventListener("click",()=>{e.emit("open:QRModal"),e.emit("open:QRscan",o)}),console.log("DOMContentLoaded")});
